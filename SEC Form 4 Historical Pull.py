@@ -350,8 +350,8 @@ if __name__ == '__main__':
     proxies = []
     if USE_PROXIES:
         print("Proxy usage is ENABLED.")
-        proxy_user = 'spkhzh58w4'
-        proxy_pass = '=RdhQw7m8tQimw4G0t'
+        proxy_user = 'XXXXXXXXXXXXXX'
+        proxy_pass = 'XXXXXXXXXXXXXXXXXXX'
         proxy_host = 'gate.decodo.com'
         proxy_ports = range(10001, 10011)
 
@@ -521,4 +521,5 @@ if __name__ == '__main__':
     minutes = int(execution_time // 60)
     seconds = int(execution_time % 60)
     print(f"{'='*60}\nTotal Execution Time: {minutes} minutes and {seconds} seconds.\n{'='*60}")
+
 
